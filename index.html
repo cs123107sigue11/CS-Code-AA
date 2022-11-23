@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Cafe Corner</title>
+        <style>
+            body, html {
+                margin: 0px;
+            }
+            body {
+                padding: 0px;
+                margin: 0px;
+                background-color: white;
+                box-sizing: border-box;
+                font-family: 'Fredoka', sans-serif;
+                width: 15in;
+                overflow-x: hidden;
+            }
+            p {
+                font-family: 'Roboto', sans-serif;
+            }
+            header { 
+                width: 100%;
+            }
+            header ul {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #000000;
+                width: 1903px;
+                height: 120px;
+            }
+            header ul li {
+                float: left;
+                margin: 0 1em;
+            }
+            header ul li a {
+                display: block;
+                color: #F4FFED;
+                text-align: center;
+                padding: 0px;
+                font-size: 45px;
+                text-decoration: none;
+            }
+            header ul li.logo{
+                width: auto;
+                height: auto;
+                margin-right: auto;
+                max-height: 50px;
+                max-width: 250px
+            }
+            header ul li:hover {
+                background-color: #3C280D;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            header ul li:first-of-type:hover {
+                background-color: black;
+            }
+            header ul li a.active {
+                background-color: #04AA6D;
+                color: white;
+            }  
+            #page1{
+                background-image: url('https://i.ibb.co/cwzFMj9/pexels-photo-1995010.jpg');
+                background-size: cover;
+                height: 670px;
+                width: 1903px;
+            }
+            #page1 h1 {
+                margin: 0px;
+                padding: 10px;
+                font-size:100px;
+                color: #000000;
+                text-align: center;
+                font-family: 'Sono', sans-serif;
+                background-color:rgb(255,255,255, 0.35);
+            }
+            #zoom {
+                width: 1920px;
+                }
+            #zoom .column {
+                float: left;
+                width: 50%;
+                padding: 5px;
+            }
+            #zoom .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            #zoom figure {
+	            overflow: hidden;
+	            width: 250px;
+                height: 250px;
+	            box-sizing: border-box;
+            }
+            #zoom figure img {
+                border-radius: 50%;
+	            max-width: 80%;
+                max-height: 80%;
+            }
+            #zoom figure figcaption {
+                padding: 0px;
+                font-size:20px;
+                color: black;
+                text-align: left;
+                font-family: 'Rubik Bubbles', cursive;
+            }
+            #zoom h2 {
+            margin-top: 420px;
+            margin-bottom: -8px;
+            padding: 0px;
+            font-size:80px;
+            color: whitesmoke;
+            text-align: center;
+            font-family: 'Fredoka', sans-serif;
+            background-color:rgb(0,0,0, 0.35);
+            }
+            #zoom p {
+                padding: 0px;
+                margin: 0px;
+                font: size 25px;
+                color: black;
+                text-align: center;
+                background-color: white;
+            }
+            #page1 footer ul { 
+                font-size: 10px;
+                color: black;
+                text-align: left;
+                font-family:'Roboto', sans-serif; 
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="MyNavBar">
+                <ul>
+                    <li class="logo"><a href="index.html"><img src="logo.png" alt="logoco"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Menu</a></li>
+                    <li><a href="page3.html">About</a></li>
+                </ul>
+            </div>
+        </header>
+        <section id="page1">
+            <h1>GROUND UP CAFE</h1>
+        <section id="zoom">
+            <h2>HOLIDAY SPECIAL</h2>
+            <p>Now you can feel the energy.</p>
+            <div class="row">
+                <div class="column">
+                    <figure>
+                        <img src="holidaybarbox.jpg" style="width: 100%; height: 100%;" alt="Box">
+                            <figcaption>Holiday Bar Box</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="giftset.jpg" style="width: 100%; height: 100%;" alt="Set">
+                            <figcaption>Ground Up's Gift Set</figcaption>
+                    </figure>
+                </div>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="popovers.jpg" style="width: 100%; height: 100%;" alt="Pop">
+                            <figcaption>Popovers</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure>
+                        <img src="gingerbread.jpg" style="width: 100%; height: 100%;" alt="Ginger">
+                            <figcaption>Ginger Bread</figcaption>
+                    </figure>
+                </div>
+        </section>
+        <section id="footer">
+          <footer class="site-footer" role="contentinfo" data-section-type="footer" data-section-id="footer" data-footer-parallax data-section-id="footer" data-section-type="footer">
+              <div class="page-width">
+                <div class="flex-footer">
+                  <div class="flex-footer__item flex-footer__item--menu" >
+                    <ul class="site-footer__linklist">
+                        <li class="site-footer__linklist-item h6">
+                          <a href="about-us">About Us</a>
+                        </li>
+                        <li class="site-footer__linklist-item h6">
+                          <a href="news">News</a>
+                        </li>
+                        <li class="site-footer__linklist-item h6">
+                          <a href="careers">Careers</a>
+                        </li>
+                        <li class="site-footer__linklist-item h6">
+                          <a href="contact-us">Contact Us</a>
+                        </li>
+                        <li class="site-footer__linklist-item h6">
+                          <a href="privacy-policy">Privacy Policy</a>
+                        </li>
+                      </ul>
+                  </div>
+            </footer>
+        </section>
+      </section>
+    </body>
+</html>
