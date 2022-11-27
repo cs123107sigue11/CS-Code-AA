@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Cafe Corner</title>
+        <style>
+            body {
+                padding: 0px;
+                margin: 0px;
+                background-color: black;
+                box-sizing: border-box;
+                font-family: 'Fredoka', sans-serif;
+                width: 15in;
+                overflow-x: hidden;
+            }
+            header { 
+                width: 100%;
+            }
+            header ul {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #000000;
+                width: 1903px;
+                height: 200px;
+            }
+            header ul li {
+                float: left;
+                margin: 0 1em;
+            }
+            header ul li a {
+                display: block;
+                color: #F4FFED;
+                text-align: center;
+                padding: 50px;
+                font-size: 45px;
+                text-decoration: none;
+            }
+            header ul li.name{
+                margin-right: auto;
+            }
+            header ul li:hover {
+                background-color: gray;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            header ul li:first-of-type:hover {
+                background-color: black;
+            }
+            h1, h2 {
+                text-align: center;
+                font-size: 50px;
+                color: white;
+            }
+            img {
+                height: 200px;
+                display: block;
+            }
+            figcaption{
+                color: white;
+                display: flex;
+                font-size: 30px;
+                margin-right: 10px;
+            }
+            figcaption ul li {
+                display:inline-flex;
+                margin: 10px;
+            }
+            p { 
+                margin-top: auto;
+                font-size: 15px;
+                margin-left: 10px;
+            }
+            .container {
+                background-color: black;
+                padding: 64px;
+                width: 1770px;
+            }
+            .row {
+                border: solid white;
+            }
+            .column {
+                padding: 64px;
+            }
+            article ul {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                margin-left: 500px;
+                overflow: hidden;
+                background-color: #000000;
+                height: 120px;
+                width: 1903px;
+            }
+            article ul li {
+                float: left;
+                margin: 0 1em;
+            }
+            article ul li a {
+                display: block;
+                color: #F4FFED;
+                text-align: center;
+                padding: 20px;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav id="MyNavBar">
+                <ul>
+                    <li class="name"><a href="index.html">Ground Up Cafe</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Menu</a></li>
+                    <li><a href="page3.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1>We believe good food offer great smile</h1>
+            <nav id="Menu">
+                <ul>
+                    <li><a href="#coffee">Coffee</a></li>
+                    <li><a href="#main">Main Dishes</a></li>
+                    <li><a href="#side">Side Dishes</a></li>
+                    <li><a href="#finger">Finger Foods</a></li>
+                    <li><a href="#dessert">Dessert</a></li>
+                    <li><a href="#drinks">Drinks</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <h1 style="margin-bottom:64px">THE MENU</h1>
+                    <div class="row">
+                        <div class="column" style="font-size: 70px; color:white;">Coffee</div>
+                        <div id="coffee">
+                            <figure>
+                                <img src="deepblack.png" alt="deepblack">
+                                <figcaption>Deep Black Coffee -- Best Seller 
+                                <p>Pure form of brewed coffee.
+                                <br>MADE FROM ORIGINAL ROASTED COFFEE BEANS
+                                </p>
+                                    <ul>
+                                        <li>Regular<br>$2.00</li>
+                                        <li>Medium<br>$4.00</li>
+                                        <li>Large<br>$6.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="lattee.jpg" alt="latte">
+                                <figcaption>Latte
+                                <p>An Espresso with steamed milk with foam</p>
+                                    <ul style="margin-left: 370px;">
+                                        <li>Regular<br>$3.00</li>
+                                        <li>Medium<br>$5.00</li>
+                                        <li>Large<br>$8.00a</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="americanoo.jpg" alt="americano">
+                                <figcaption>Americano
+                                <p>Espresso + hot water </p>
+                                    <ul style="margin-left: 300px;">
+                                        <li>Regular<br>$2.00</li>
+                                        <li>Medium<br>$4.00</li>
+                                        <li>Large<br>$6.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="macchiato.jpg" alt="macchiato">
+                                <figcaption>Latte Macchiato
+                                    <p>Steamed milk + frothed milk + espresso</p>
+                                    <ul style="margin-left: 50px;">
+                                        <li>Regular<br>$2.00</li>
+                                        <li>Medium<br>$4.00</li>
+                                        <li>Large<br>$6.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="espressoo.jpg" alt="espresso">
+                                <figcaption>Espresso
+                                    <p>Espresso is a single shot of coffee.
+                                    <br>It is served in a wider cup or glass to allow more aroma to reach the drinker.
+                                    </p>
+                                    <ul style="margin-left: 50px;">
+                                        <li>Regular<br>$2.00</li>
+                                        <li>Medium<br>$4.00</li>
+                                        <li>Large<br>$6.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h1><a href="page2.html" title="">BACK TO TOP</a></h1> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column" style="font-size: 70px; color:white;">Main Dishes</div>
+                        <div id="main">
+                            <figure>
+                                <img src="rice.jpg" alt="rice">
+                                <figcaption>Rice
+                                    <ul>
+                                        <li>White Rice<br>₱25.00</li>
+                                        <li>Garlic Rice<br>₱35.00</li>
+                                        <li>Fried Rice<br>₱40.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="salisburysteak.webp" alt="salsteak">
+                                <figcaption>Salisbury Steak
+                                    <ul style="margin-left: 370px;">
+                                        <li>₱60.00<br>each</li>
+                                        <li>₱85.00<br>with white rice</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="friedchicken.webp" alt="chicken">
+                                <figcaption>Fried Chicken
+                                <p>Espresso + hot water </p>
+                                    <ul style="margin-left: 300px;">
+                                        <li>₱45.00<br>each</li>
+                                        <li>₱70.00<br>with white rice</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="fruiedshrimp.webp" alt="shrimp">
+                                <figcaption>Japanese-Style Deep-Fried Shrimp
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱60.00<br>each serving</li>
+                                        <li>₱85.00<br>with white rice</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="lechonkawali.webp" alt="lechli">
+                                <figcaption>Lechon Kawali
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱60.00<br>each serving</li>
+                                        <li>₱85.00<br>with white rice</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h1><a href="page2.html" title="">BACK TO TOP</a></h1> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column" style="font-size: 70px; color:white;">Side Dishes</div>
+                        <div id="side">
+                            <figure>
+                                <img src="bacon.jpg" alt="bacon">
+                                <figcaption>Bacon-Wrapped Jalapeno Chicken
+                                <p>An Espresso with steamed milk with foam</p>
+                                    <ul style="margin-left: 370px;">
+                                        <li>₱30.00<br>each</li>
+                                        <li>₱100.00<br>for 3 pieces</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="bufallomeatballs.jpg" alt="buffballs">
+                                <figcaption>Bufallo Chicken Meatballs
+                                <p>Simple and amazing, made right in your slow cooker and are served hot and delicious in every bite. </p>
+                                    <ul style="margin-left: 370px;">
+                                        <li>₱70.00<br>each serving</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="lobstertail.jpg" alt="lobtail">
+                                <figcaption>Garlic Dipped Lobster Tail
+                                <p>Dripping with melted butter and seasoned with garlic salt and lemon, you are on your way to lobster bliss and will go perfect with any steak or other seafood. </p>
+                                    <ul style="margin-left: 300px;">
+                                        <li>₱60.00<br>each serving</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="pancitpalabok" alt="pancit">
+                                <figcaption>Pancit Palabok
+                                    <p>Steamed milk + frothed milk + espresso</p>
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱60.00<br>each serving</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="sweet&sour.webp" alt="sns">
+                                <figcaption>Sweet & Sour
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱60.00<br>each serving</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h1><a href="page2.html" title="">BACK TO TOP</a></h1> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column" style="font-size: 70px; color:white;">Finger Foods</div>
+                        <div id="finger">
+                            <h1>It is simple to make and delicious to eat.</h1>
+                            <figure>
+                                <img src="grilledsandwich.jpg" alt="griwich">
+                                <figcaption>Grilled Ham and Cheese Sandwich 
+                                <p>This grilled ham and cheese sandwich is the perfect lunch time feast for kids young and old. </p>
+                                    <ul>
+                                        <li>₱45.00<br>each</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="littlesmokies.jpg" alt="latte">
+                                <figcaption>Honey Garlic Little Smokies
+                                <p>The little smokies sauce is key to making these mind blowing delicious and the best thing is how easy they are to make. </p>
+                                    <ul style="margin-left: 370px;">
+                                        <li>₱35.00<br>each stick</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="cheesybread.jpg" alt="chebread">
+                                <figcaption>Cheesy Parmesan Chicken Bread
+                                    <ul style="margin-left: 300px;">
+                                        <li>₱35.00<br>each stick</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="sugarcookies.jpg" alt="sukies">
+                                <figcaption>Sugar Cookies -- Christmas Season Special
+                                    <ul style="margin-left: 370px;">
+                                        <li>₱25.00<br>for 3 pieces</li>
+                                        <li>₱100.00<br>for 15 pieces</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="brownies.jpg" alt="brownies">
+                                <figcaption>Brownies
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱15.00<br>for 3 pieces</li>
+                                        <li>₱40.00<br>for 10 pieces</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h1><a href="page2.html" title="">BACK TO TOP</a></h1> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column" style="font-size: 70px; color:white;">Dessert</div>
+                        <div id="dessert">
+                            <figure>
+                                <img src="ovenroasted.jpg" alt="oven">
+                                <figcaption>Oven Roasted Sweet Potatoes -- Best Seller 
+                                <p> Just the right amount of sweet and spicy that will make your mouth water
+                                </p>
+                                    <ul>
+                                        <li>₱20.00<br>each</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="sugarcookies.jpg" alt="sukies">
+                                <figcaption>Sugar Cookies -- Christmas Season Special
+                                    <ul style="margin-left: 370px;">
+                                        <li>₱25.00<br>for 3 pieces</li>
+                                        <li>₱100.00<br>for 15 pieces</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="chocolatecake.png" alt="chococake">
+                                <figcaption>Cake
+                                <p>Flavors: Chocolate, Coffee, Ube, Vanilla, Red Velvet, Requests</p>
+                                    <ul style="margin-left: 300px;">
+                                        <li>₱50.00<br>each slice</li>
+                                        <li>₱350.00<br>whole cake</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="icecream.jpg" alt="icecream">
+                                <figcaption>Ice Cream
+                                    <p>Flavors: Chocolate, Ube, Vanilla, Cookies & Cream, Mint Chocolate, Requests</p>
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱40.00<br>each</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="salmoncheeseball.jpg" alt="salball">
+                                <figcaption>Salmon Cheeseball
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱50.00<br>each</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h1><a href="page2.html" title="">BACK TO TOP</a></h1> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column" style="font-size: 70px; color:white;">Drinks</div>
+                        <div id="drinks">
+                            <figure>
+                                <img src="smoothie.jpg" alt="smoothie">
+                                <figcaption>Smoothies
+                                <p>Mixberry Yogurt</p>
+                                <p>Strawberry Banana </p>
+                                <p>Requests</p>
+                                    <ul>
+                                        <li>Regular<br>₱190.00</li>
+                                        <li>Medium<br>₱250.00</li>
+                                        <li>Large<br>₱300.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="freshfriut.jpg" alt="fresh">
+                                <figcaption>Fresh Fruit Juice
+                                <p>Mango</p>
+                                <p>Pineapple </p>
+                                <p>Watermelon</p>
+                                <p>Apple</p>
+                                <p>Banana </p>
+                                <p>Requests</p>
+                                    <ul style="margin-left: 370px;">
+                                        <li>Regular<br>₱190.00</li>
+                                        <li>Medium<br>₱250.00</li>
+                                        <li>Large<br>₱300.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="hotchocolate.jpg" alt="hotchoco">
+                                <figcaption>Hot Chocolate
+                                    <ul style="margin-left: 300px;">
+                                        <li>Regular<br>₱100.00</li>
+                                        <li>Medium<br>₱140.00</li>
+                                        <li>Large<br>₱190.00</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="bottledwater.jpg" alt="water">
+                                <figcaption>Bottled Water
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱15.00<br>each</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <figure>
+                                <img src="incan.jpg" alt="soda">
+                                <figcaption>In Can Drinks
+                                <p>Pineapple</p>
+                                <p>San Miguel Beer </p>
+                                <p>Coca Cola</p>
+                                    <ul style="margin-left: 50px;">
+                                        <li>₱40.00<br>each</li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                            <h1><a href="page2.html" title="">BACK TO TOP</a></h1> 
+                        </div>
+                    </div> 
+                </div> 
+            </article>      
+    </body>
+</html>
